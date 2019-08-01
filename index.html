@@ -6,20 +6,42 @@
     <meta charset="utf-8">
     <meta name="description" content="Calculate your life path number">
     <meta name="author" content="Amanda Misjuwar">
-    
+
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+
     <title>Numerology Calculator</title>
 
 </head>
 
 <body>
-    <div class="bg">
-        <div class="calc-box-wrapper">
-            <div class="calc-box"></div>
-        </div>
-        
-    </div>
+    <div class="calc-box-container">
+        <div class="calc-box">
+            <div id="slider">
+                <div class="slide active">
+                    <div class="content">
+                        <h1>Numerology Calculator</h1>
+                        <p>Find out your life path number using the Pythagorean system.</p>
+                        <div id="next" class="btn">Start</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <p>Choose one.</p>
+                        <div class="horizontal-btn-container">
+                            <div id="choice-name" class="choice">Name</div>
+                            <div id="choice-birth" class="choice">Birth</div>
+                        </div>
+                        <div class="btn">Next</div>
+                    </div>
+                </div>
 
+            </div>
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
