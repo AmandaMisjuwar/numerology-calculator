@@ -1,0 +1,26 @@
+html, body {
+    font-family: Poppins;
+    
+
+}
+
+.bg {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;  
+    background: linear-gradient(180deg, rgba(188, 92, 92, 0.81) ,rgba(118, 65, 204, 0.81));
+    
+}
+
+.calc-box-wrapper {
+    text-align: center;
+}
+
+.calc-box {
+    position: absolute;
+    width: 450px;
+    height: 500px;
+   
+    background: white;
+}
