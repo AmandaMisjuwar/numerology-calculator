@@ -19,18 +19,29 @@
         <div class="calc-box">
             <div id="slider">
                 <div class="slide active">
-                    <div class="content">
+                    <div id="start-page" class="content">
                         <h1>Numerology Calculator</h1>
                         <p>Find out your life path number using the Pythagorean system.</p>
                         <div id="next" class="btn">Start</div>
                     </div>
                 </div>
                 <div class="slide">
-                    <div class="content">
+                    <div id="choice-page" class="content">
                         <p>Choose one.</p>
                         <div class="horizontal-btn-container">
                             <div id="choice-name" class="choice">Name</div>
                             <div id="choice-birth" class="choice">Birth</div>
+                        </div>
+                        <div class="btn">Next</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div id="name-page" class="content">
+                        <h1>Numerology Calculator</h1>
+                        <div class="text-input-container">
+                            <form>
+                                <input type="text" name="fullname" placeholder="Enter your full name">
+                            </form>
                         </div>
                         <div class="btn">Next</div>
                     </div>
@@ -41,7 +52,7 @@
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="./scripts.js"></script>
 </body>
 
 </html>

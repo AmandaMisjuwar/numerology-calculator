@@ -28,6 +28,36 @@ p {
     margin-bottom: auto;
 }
 
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid black;
+    background: none;
+    width: 72%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7C7A7A; 
+}
+
+::-webkit-input-placeholder {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7C7A7A; 
+}
+
+input:focus { 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: black; 
+    outline: none;
+  }
+
 .btn {
     background: black;
     color: white;
@@ -129,3 +159,17 @@ p {
     opacity: 0.7;
     transform: scale(1.1);
 }
+
+.back-arrow-container {
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+
+.text-input-container{
+    width: 100%;
+    height: 7%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
