@@ -57,6 +57,7 @@ $('.btn').click(function () {
 
     if (currentSlide.hasClass("result")) {
         nextSlide = $('.slide.start');
+        $('input[name="fullname"]').val("");
     } else if (currentSlide.hasClass("birth")) {
         nextSlide = $('.slide.result');
         // insert function to calculate number
