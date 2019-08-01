@@ -1,5 +1,4 @@
 $('.btn').click(function () {
-    console.log("TESTTESTTEST");
     var currentSlide = $('.slide.active');
     var nextSlide = currentSlide.next();
 

@@ -40,6 +40,15 @@ input[type=text] {
     color: #7C7A7A; 
 }
 
+img {
+    width: 10%;
+    cursor: pointer;
+}
+
+img:hover{
+    opacity: 0.7;
+}
+
 ::-webkit-input-placeholder {
     font-family: Poppins;
     font-style: normal;
@@ -164,6 +173,8 @@ input:focus {
     width: 100%;
     margin: 0;
     display: flex;
+    padding-left: 5%;
+    padding-top: 5%;
 }
 
 .text-input-container{
