@@ -87,12 +87,21 @@ button:focus{
     outline: none;
 }
 
-a {
-    color: white;
-    font-size: 12px;
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background: #00FFFF00 !important;
     text-align: center;
-    display: block;
-}
+    text-decoration: none;
+    color: white;
+  margin-bottom: 2%;
+  font-size: 11px;
+  }
+
+  a:link:hover {
+    color: orange;
+  }
 
 .btn {
     background: black;
