@@ -76,8 +76,9 @@ $('.btn').click(function () {
         nextSlide = currentSlide.next();
     }
 
+    currentSlide.fadeOut(100).removeClass('active');
     nextSlide.fadeIn(1200).addClass('active');
-    currentSlide.fadeOut(350).removeClass('active');
+    
 
 
 
@@ -87,6 +88,7 @@ $('.previous').click(function () {
     var currentSlide = $('.slide.active');
     var prevSlide = currentSlide.prev();
 
-    prevSlide.fadeIn(1500).addClass('active');
-    currentSlide.fadeOut(300).removeClass('active');
+    currentSlide.fadeOut(100).removeClass('active');
+    prevSlide.fadeIn(1200).addClass('active');
+    
 })
