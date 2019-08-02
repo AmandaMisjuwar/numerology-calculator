@@ -78,6 +78,14 @@ input:focus {
     outline: none;
   }
 
+button:active {
+    outline: none;
+}
+
+button:focus{
+    outline: none;
+}
+
 .btn {
     background: black;
     color: white;
@@ -180,6 +188,21 @@ input:focus {
     opacity: 0.7;
     transform: scale(1.1);
 }
+
+.choice:focus {
+    transform: scale(1.1); 
+    outline: none;
+
+}
+
+#choice-name:focus{
+    background: rgba(188, 92, 92, 0.81) -8.74%;
+}
+
+#choice-birth:focus {
+    background: rgba(118, 65, 204, 0.81) 107.35%;
+}
+
 
 .back-arrow-container {
     position: sticky;

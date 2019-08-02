@@ -1,6 +1,8 @@
 var choseName = true, choseBirth = null;
 var resultNum;
 
+
+//reduces n to a single digit or 11, 22, 33 by adding up the existing digits
 function reduceDigits(n){
     var strNum = "" + n;
     if (n < 10 || n === 11 || n === 22 || n === 33){
@@ -15,6 +17,8 @@ function reduceDigits(n){
      }
     return(parseInt(strNum));
 }
+
+
 //calculates the number based on name
 function findNameNumber() {
     var myName = $("input[name='fullname']").val().toLowerCase();
