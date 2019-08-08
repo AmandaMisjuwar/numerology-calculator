@@ -8,6 +8,6 @@ So the final answer for 'Amanda' should be 7.
 
 Inspired by Daily UI Day 4 (Calculator Design) Challenge.
 
-Try it out! Go to [Numerology Calculator](amandamisjuwar.github.io/numerology-calculator).
+Try it out! Go to [Numerology Calculator](/numerology-calculator).
 
 Read more about numerology [here](https://en.wikipedia.org/wiki/Numerology)!
