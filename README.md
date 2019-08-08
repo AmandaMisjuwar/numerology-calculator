@@ -4,7 +4,7 @@ This is found by adding up all the digits that correspond to each alphabet lette
 
 For example,
 'Amanda' adds up to 16 -> 1 + 6 -> 7
-So the final answer for 'Amanda' should be 7.
+So the digital root for 'Amanda' should be 7.
 
 Inspired by Daily UI Day 4 (Calculator Design) Challenge.
 
