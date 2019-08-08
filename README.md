@@ -1,6 +1,6 @@
 # numerology-calculator
 Numerology calculator takes either user's name or birthday and calculates their life path number. 
-This is found by adding up all the digits that correspond to each alphabet letter or birthday digit until either one digit is found or 11, 22, or 33 is reached. (Also known as the Pythagorean System in numerology).
+This is found by adding up all the digits that correspond to each alphabet letter or birthday digit until either one digit is found or 11, 22, or 33 is reached. (Also known as the Pythagorean System in numerology and "finding the digital root").
 
 For example,
 'Amanda' adds up to 16 -> 1 + 6 -> 7
